@@ -22,3 +22,5 @@ git log - mostra todas as atualizações realizadas
 
 git mv - serve para renomear e mover de local
 
+arquivo .gitignore
+Todos os arquivos dentro desse arquivo seram ignorados pelo git
