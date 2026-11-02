@@ -1,0 +1,59 @@
+Algumas tags principais
+
+
+dando significado ao conteudo:
+
+< > .... </ >
+
+
+<h1> Meu título </h1>
+
+Tagns aninhadas:
+
+<p> Texto com <i>itálico</i> aqui </p>
+
+
+Níveis de H1, h2, h3, h4
+
+
+Destaque e texto:
+
+<i> itálico </i>
+<b> negrito </b>
+
+<em> itálico semântico </em>
+<strong> negrito semântico </strong>
+<mark> destaque especial </mark>
+
+
+Listas não ordenadas
+
+<ul>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+
+</ul>
+
+Listas ordenadas
+
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+
+Links:
+
+<p> Texto com <a>link</a> aqui </p>
+
+Atributos:
+
+<tag atributo="valor"> texto aqui </tag>
+
+QUebras de linha
+
+<br>
+<hr>
