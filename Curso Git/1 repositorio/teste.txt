@@ -17,3 +17,8 @@ git push - enviar os arquivos para o repositorio
 
 
 git pull - baixa as atulização
+
+git log - mostra todas as atualizações realizadas
+
+git mv - serve para renomear e mover de local
+
