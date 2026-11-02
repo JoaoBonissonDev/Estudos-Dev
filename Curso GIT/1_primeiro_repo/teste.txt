@@ -1,0 +1,19 @@
+Git status  - mostra os status que estão 
+
+M - arquivo modificado 
+
+U - arquivo untritred para ser comitado
+
+git add .  ( adiciona todos os arquivos)
+
+
+git commit: ( salvar as alterações)
+
+para muitos arquivos usa a flag -a
+para deixar uma mensagem use a flag -m
+
+
+git push - enviar os arquivos para o repositorio
+
+
+git pull - baixa as atulização
