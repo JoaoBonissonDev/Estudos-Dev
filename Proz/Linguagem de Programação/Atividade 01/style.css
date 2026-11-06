@@ -1,6 +1,7 @@
 body {
 
-    background-color: rgb(175, 177, 177);
+    background-color: #f0f2f5;
+    color: #1a1a1a;
 }
 
 .h1inicial {
@@ -9,36 +10,124 @@ body {
   font-size: 45px;
 }
 
-p
-{
-    font-size: 20px;
+
+
+
+
+
+header {
+  display: flex;
+  align-items: center;      /* Alinha o texto e o menu verticalmente ao centro */
+  justify-content: space-between;
+  position: relative;       /* Permite posicionar o nav no centro absoluto */
+  padding: 20px 4%;
+  width: 100%;
+  box-sizing: border-box;   /* Evita que a barra de rolagem horizontal apareça */
 }
 
-li 
+/* Marca / Nome do Produto */
+header h2 {
+  font-size: 1.8rem;        /* Aumenta o tamanho da fonte da marca */
+  font-weight: bold;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+/* Menu Centralizado */
+header nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza perfeitamente o nav na horizontal */
+  display: flex;
+  gap: 25px;                /* Cria um espaçamento uniforme entre os links */
+}
+
+/* Estilização dos Links */
+header nav a {
+  text-decoration: none;   /* Remove a linha azul de sublinhado padrão */
+  color: #4a5568;          /* Tom cinzento escuro moderno */
+  font-weight: 500;
+  font-size: 30px;
+  transition: color 0.2s ease;
+}
+
+#Inicio
 {
-    font-size: 20px;
+    display: flex;    /* Alinha o texto e a imagem verticalmente no centro*/
+    align-items: center; /* Distribui o espaço entre texto e imagem */
+    justify-content: space-between; /* Espaçamento interno das bordas da tela */
+    padding: 60px 8%; /* Espaçamento interno das bordas da tela */
+    gap: 40px; /* Distacia entre o bloco de texto e a imagem */
+}
+
+.conteudo-hero
+{
+    flex: 1;
+    max-width: 550px;
+}
+.h1inicial
+{
+    font-size: 2.8rem; /* Deixa o título bem de destaque */
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+.conteudo-hero p
+{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Coluna da Imagem */
+
+.imagem-hero
+{
+    flex: 1;  /* Ocupa os outros 50% */
+    display: flex;
+    justify-items: center;
+}
+
+.imagem-hero img
+{
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.15)); /* Sombra suave sob os óculos */
 }
 
 
-header
+
+.container-beneficios
 {
-  margin: 20px;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  width: 95%;
-  background-color: transparent;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+   
 }
 
-a
+#Beneficios
 {
-    font-size: 23px;
-    color: rgb(5, 2, 180);
-    margin-left: 40px;
-    
+    margin-top: 40px;
 }
 
-img
+#Beneficios h1
 {
-    margin-left: 20px;
-}   
+    text-align: center;
+    font-size: 48px;
+}
+
+.beneficio
+{
+    background-color: rgba(15, 23, 42, 0.85);
+    color: #fff; 
+    backdrop-filter: blur(8px); /* Desfoque leve */
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid grba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 24px;
+    flex: 1; /* Faz com que dividam o espaço igualmente */
+}
+
