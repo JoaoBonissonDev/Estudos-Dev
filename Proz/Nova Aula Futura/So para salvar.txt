@@ -1,0 +1,42 @@
+/* Caixa principal que envolve todas as especificações */
+.specs-box {
+    background-color: #f9f9f9;     /* Cor de fundo leve para parecer um "box" */
+    border: 1px solid #e0e0e0;     /* Borda suave em volta da caixa */
+    border-radius: 8px;            /* Bordas arredondadas */
+    padding: 20px;                 /* Espaçamento interno */
+    max-width: 500px;              /* Largura máxima do box */
+    font-family: Arial, sans-serif;
+}
+
+.specs-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Cada linha individual de especificação */
+.spec-row {
+    display: flex;                 /* Joga o rótulo para a esquerda e o valor para a direita */
+    justify-content: space-between;/* Empurra cada um para uma ponta */
+    align-items: center;           /* Alinha verticalmente */
+    padding: 12px 0;               /* Espaçamento acima e abaixo do texto */
+    border-bottom: 1px solid #e5e5e5; /* A linha divisória entre os itens */
+}
+
+/* Remove a linha do último item para não ficar sobrando espaço embaixo */
+.spec-row:last-child {
+    border-bottom: none; 
+}
+
+/* Estilo do texto à esquerda */
+.spec-label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilo do texto à direita */
+.spec-value {
+    color: #222;
+    text-align: right;
+}
