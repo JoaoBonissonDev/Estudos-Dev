@@ -160,7 +160,147 @@ header nav a {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 24px;
-    max-width: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+  
 }
 
+#EspecificacoesTecnicas h3
+{
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.Espec-tec
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.Espec-tec:last-child
+{
+  border-bottom: none;
+}
+
+.Spec-label
+{
+  font-weight: bold;
+  color: #fff;
+}
+
+.Spec-value
+{
+  color: #fff;
+  text-align: right;
+}
+
+/* Área de contato */
+.contato {
+    background-color: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(80, 220, 255, 0.15);
+    border-radius: 12px;
+
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    margin: 50px auto;
+
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+
+    box-shadow: 0 0 25px rgba(0, 220, 255, 0.08);
+}
+
+/* Título */
+.contato h1 {
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Descrição */
+.contato p {
+    color: #b8c4cc;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Formulário */
+#Formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Campos */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Labels */
+.form-group label {
+    font-size: 14px;
+    color: #50e6f5;
+    font-weight: bold;
+}
+
+/* Inputs e textarea */
+.form-group input,
+.form-group textarea {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(120, 180, 200, 0.3);
+    border-radius: 6px;
+
+    padding: 12px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* Placeholder */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #75858f;
+}
+
+/* Botão */
+#Formulario button {
+    background: #40e8f5;
+    color: #001014;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+    filter: invert(75%);
+}
