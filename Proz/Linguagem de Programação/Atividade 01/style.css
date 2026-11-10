@@ -297,10 +297,17 @@ header nav a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    
 }
 
 .footer-social img {
     width: 20px;
     height: 20px;
     filter: invert(75%);
+}
+
+.footer-copy
+{
+  text-align: left;
+  font-size: 18px;
 }
